@@ -1,4 +1,7 @@
-{% include toggle-menu.html %}
+---
+layout: default
+title: Home
+---
 
 # Welcome to the Turtle Network Documentation Hub
 

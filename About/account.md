@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Account"
-permalink: /about/account/
 ---
 ## Account
 An account is a cryptographically bound pair of a public and a private keys on the blockchain.
