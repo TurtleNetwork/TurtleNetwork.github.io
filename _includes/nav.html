@@ -1,9 +1,20 @@
 <nav class="nav-primary" role="navigation" >
-    <ul>
+    {% assign mydocs = site.docs | group_by: 'category' %}
+    {% for cat in mydocs %}
+    <h2>{{ cat.name | capitalize }}</h2>
+        <ul>
+        {% assign items = cat.items | sort: 'order' %}
+        {% for item in items %}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+    
+    {% comment %} <ul>
         {% for p in site.pages %}
         <li>
         	<a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
         </li>
         {% endfor %}
-    </ul>
+    </ul> {% endcomment %}
 </nav>

@@ -2,3 +2,5 @@ theme: jekyll-theme-minimal
 title: TN DocHub
 description: The one place for all Turtle Network related documentation.
 menus: header
+collections:
+  - about

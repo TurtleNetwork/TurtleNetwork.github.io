@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Account"
+title: Account
+categorie: beginner
 ---
 ## Account
 An account is a cryptographically bound pair of a public and a private keys on the blockchain.
