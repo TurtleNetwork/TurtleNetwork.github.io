@@ -1,6 +1,3 @@
----
-layout: default
----
 # Welcome to the Turtle Network Documentation Hub
 
 This will be the central location for all Turtle Network related documentation. 
