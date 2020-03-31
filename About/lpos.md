@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Leased Proof of Stake"
 ---
 ## Leased Proof of Stake
