@@ -4,4 +4,5 @@ description: The one place for all Turtle Network related documentation.
 menus: header
 collections:
   about:
+    name: About
     output: true
