@@ -1,6 +1,3 @@
-layout: page
-title: "Leased Proof of Stake copy "
-permalink: /about/LPoS2/
 ## Leased Proof of Stake 2
 Leased Proof of Stake (LPoS) is an enhanced type of proof of stake consensus algorithm by which the TN blockchain network aims to achieve the distributed consensus to secure the network.
 
