@@ -1,5 +1,5 @@
 <nav class="nav-primary" role="navigation" >
-    {% assign mydocs = site.docs | group_by: 'category' %}
+    {% assign mydocs = site.about | group_by: 'category' %}
     {% for cat in mydocs %}
     <h2>{{ cat.name | capitalize }}</h2>
         <ul>
