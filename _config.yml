@@ -3,4 +3,5 @@ title: TN DocHub
 description: The one place for all Turtle Network related documentation.
 menus: header
 collections:
-  - about
+  about:
+    output: true
