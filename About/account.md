@@ -11,11 +11,11 @@ Accounts unambiguously correlate transactions and orders with their senders.
 Private and public keys have the same size — 32 bytes. The bytes of the keys are converted to a Base58 character string; in this form, the keys are displayed in the interfaces of programs.
 
 Example of a public key in Base58:
-
     BRzAFccE3BeAn8rf7Mf56LoqUdT5xExbMUEgV7wGsiKx
-Example of a private key in Base58:
 
+Example of a private key in Base58:
     9g5fFTwrLz9FEbgsE3ujfXPj92h5F4HDK6ew5LXh1ViZ
+
 An **account owner** is an owner of both account keys at the same time: both public and private.
 
 ### Transaction digital signature
