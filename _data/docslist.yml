@@ -9,5 +9,10 @@ docs:
       url: /about/lpos.html
   - title: For Users
     url: /users.html
+    subnav:
+      - title: TNTippingBot
+        url: /users/tntippingbot.html
+      - title: TurtleNodeBot
+        url: /users/turtlenodebot.html
   - title: For Dev's
     url: /devs.html
