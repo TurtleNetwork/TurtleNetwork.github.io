@@ -27,7 +27,7 @@ title: "TurtleNodeBot"
 3. Type the ‘/notify help’ command to get info about registering (see below)
 
 > To get registered please use the command ‘/chatid’. This will tell your id.
-
+>
 > **Waves Platform Registration**: Make a transaction with 1 $TN (Waves) towards 3PQjMPKiRBim5tBGigzJmWko6tfRRtpi63W with only ID as description OR
 >
 > **Turtle Network Registration**:  make a transaction with 1 $TN (TurtleNetwork) towards 3JgFSwnLTEWVHJMQyffHB4GJwe59hT6V4mP with only ID as as attachment.
