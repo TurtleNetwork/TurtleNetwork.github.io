@@ -4,9 +4,9 @@ title: "TNTippingBot"
 ---
 ## TNTippingBot
 
-**Description**: TNTippingBot tipping service for the Turtle Network Platform, on Telegram.
-**Summary**: @TNTippingBot on the Telegram mobile/web application.
-**Data Sheet**: @TNTippingBot Data Sheet.
+**Description**: TNTippingBot tipping service for the Turtle Network Platform, on Telegram.<br>
+**Summary**: @TNTippingBot on the Telegram mobile/web application.<br>
+**Data Sheet**: @TNTippingBot Data Sheet.<br>
 **Credits**: *@Hawky & @Black_Turtle in Telegram.*
 
 ### Standard Functions
