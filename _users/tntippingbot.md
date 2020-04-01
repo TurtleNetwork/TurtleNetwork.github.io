@@ -1,3 +1,5 @@
+---
+---
 ## TNTippingBot
 
 **Description**: TNTippingBot tipping service for the Turtle Network Platform, on Telegram.
