@@ -1,3 +1,7 @@
 ---
 ---
-@import "style.css";
+@import "*";
+.result li.active a {
+    color: greenyellow;
+    cursor: default;
+}
