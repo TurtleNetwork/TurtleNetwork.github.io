@@ -28,14 +28,16 @@ title: "TNTippingBot"
 
 ### Available Commands
 
-* /tntip – tip user <*user*> <*amount*> <*token*>
-* /tntrade – buy or sell <*amount*> <*token*>
-* /tntiptop – tip top10 <*amount/user*> <*token*>
 * /tntips – show help
 * /tnaddress – view address
 * /tnbal – view current balance
+* /tntip – tip user <*user*> <*amount*> <*token*>
+* /tntiptop – tip top10 <*amount/user*> <*token*>
 * /tnwithdraw – withdraw <*address*> <*amount*> <*token*>
 * /tntop – view top10 tippers
+* /tnsetfee - sets the fee to pay the tipping with format <fee> EG: ETHO
+* /tngetfee - shows currently configured fee
+* /tntrade – buy or sell <*amount*> <*token*>
 * /tnprivatekey – request private key
 * /tnimportprivatekey – import private key <*private key*>
 
