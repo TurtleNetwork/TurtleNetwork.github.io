@@ -3,5 +3,6 @@
 @import "jekyll-theme-minimal";
 .result li.active a {
     color: greenyellow;
+    text-decoration-color: green($color: #000000);
     cursor: default;
 }
