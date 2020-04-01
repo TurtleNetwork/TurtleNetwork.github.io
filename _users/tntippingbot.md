@@ -63,7 +63,7 @@ Total: 0.05TN p/tip
 * fees to network to process tip: 0.02TN
 
 ### New Functions
-Nov 2018: ‘tntrade’ command added for instant market trades.
+Nov 2018: ‘tntrade’ command added for instant market trades.<br>
 Jan 2020: Bot moved to new infrastructure and Push Messages created for ‘Tip Tuesday’
 
 ### Hidden functions
