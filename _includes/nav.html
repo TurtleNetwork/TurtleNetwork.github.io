@@ -5,11 +5,11 @@
       {% if item.subnav[0] %}
         <ul>
           {% for entry in item.subnav %}
-              <li><a href="{{ entry.url }}">{{ entry.title }}</a>
+              <li class="{% if item.url == page.url %}active{% endif %}"><a href="{{ entry.url }}">{{ entry.title }}</a>
                 {% if entry.subsubfolderitems[0] %}
                   <ul>
                   {% for subentry in entry.subsubfolderitems %}
-                      <li><a href="{{ subentry.url }}">{{ subentry.title }}</a></li>
+                      <li class="{% if item.url == page.url %}active{% endif %}"><a href="{{ subentry.url }}">{{ subentry.title }}</a></li>
                   {% endfor %}
                   </ul>
                 {% endif %}
