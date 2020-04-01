@@ -29,15 +29,15 @@ title: "TurtleNodeBot"
 > To get registered please use the command ‘/chatid’. This will tell your id.
 
 > **Waves Platform Registration**: Make a transaction with 1 $TN (Waves) towards 3PQjMPKiRBim5tBGigzJmWko6tfRRtpi63W with only ID as description OR
-
+>
 > **Turtle Network Registration**:  make a transaction with 1 $TN (TurtleNetwork) towards 3JgFSwnLTEWVHJMQyffHB4GJwe59hT6V4mP with only ID as as attachment.
-
+>
 > You will be added to the system. If you are not sure feel free to contact Mr Turtle for support.
-
+>
 > If you are added to the system and hold 10k TurtleNetwork you can add price notifications.
-
+>
 > If you have tips and suggestions always feel free to share.
-
+>
 > If you don’t have 10k $TN (TurtleNetwork) the bot will give an error in the end.
 
 
