@@ -33,6 +33,7 @@ title: "TNTippingBot"
 * /tnbal – view current balance
 * /tntip – tip user <*user*> <*amount*> <*token*>
 * /tntiptop – tip top10 <*amount/user*> <*token*>
+* /tntiptop50 – tip top50 <*amount/user*> <*token*>
 * /tnwithdraw – withdraw <*address*> <*amount*> <*token*>
 * /tntop – view top10 tippers
 * /tnsetfee - sets the fee to pay the tipping with format <fee> EG: ETHO
