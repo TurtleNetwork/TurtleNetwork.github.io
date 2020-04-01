@@ -1,6 +1,6 @@
 docs_list_title: Documentation
 docs:
-  - title: About
+  - title: About TN
     url: /about.html
     subnav:
     - title: Account

@@ -1,7 +1,7 @@
 <h2>{{ site.data.docslist.docs_list_title }}</h2>
 {% if site.data.docslist.docs[0] %}
   {% for item in site.data.docslist.docs %}
-    <h3>{{ item.title }}</h3>
+    <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
       {% if item.subnav[0] %}
         <ul>
           {% for entry in item.subnav %}
