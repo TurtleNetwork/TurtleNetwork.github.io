@@ -1,17 +1,13 @@
 docs_list_title: Documentation
 docs:
-
   - title: About
-  url: about.html
-  subnav:
+    url: /about.html
+    subnav:
     - title: Account
-    url: /about/account.html
-
+      url: /about/account.html
     - title: LPoS
-    url: /about/lpos.html
-
+      url: /about/lpos.html
   - title: For Users
-  url: users.html
-  
+    url: /users.html
   - title: For Dev's
-  url: devs.html
+    url: /devs.html
