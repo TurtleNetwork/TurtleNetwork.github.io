@@ -2,10 +2,10 @@ docs_list_title: Documentation
 docs:
 
 - title: Account
-  url: about/account.html
+  url: /about/account.html
 
 - title: LPoS
-  url: about/lpos.html
+  url: /about/lpos.html
 
 - title: Deployment
   url: deployment.html
