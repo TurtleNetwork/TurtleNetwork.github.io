@@ -66,7 +66,8 @@ Total: 0.05TN p/tip
 
 ### New Functions
 Nov 2018: ‘tntrade’ command added for instant market trades.<br>
-Jan 2020: Bot moved to new infrastructure and Push Messages created for ‘Tip Tuesday’
+Jan 2020: Bot moved to new infrastructure and Push Messages created for ‘Tip Tuesday’.<br>
+Feb 2020: New 'tnsetfee' and 'tngetfee' commands added.
 
 ### Hidden functions
 Nov 2018: /tntiptop50@TNTippingBot – tipping the top 50 in the format <*amount/user*> <*token*>
