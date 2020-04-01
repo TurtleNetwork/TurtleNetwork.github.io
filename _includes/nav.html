@@ -1,6 +1,8 @@
 <h2>{{ site.data.docslist.docs_list_title }}</h2>
 <ul>
-   {% for item in site.data.docslist.docs %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-   {% endfor %}
+    {% for item in site.data.docslist.docs %}
+        <li class="{% if item.url == page.url %}active{% endif %}">
+            <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+    {% endfor %}
 </ul>
