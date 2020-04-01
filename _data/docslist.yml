@@ -1,0 +1,11 @@
+docs_list_title: Documentation
+docs:
+
+- title: Account
+  url: about/account.html
+
+- title: LPoS
+  url: about/account.html
+
+- title: Deployment
+  url: deployment.html
