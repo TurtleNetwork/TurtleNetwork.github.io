@@ -11,11 +11,17 @@ Document Creator/Editor: _@gordobtel on Telegram_ <br>
 **Table of Contents**
 
 [1. Introduction](#introduction)
+
 [2. Hosting](#hosting)
+
 [3. Turtle Network Node Setup -- Step 1](#turtle-network-node-setup-step-1)
+
 [4. Turtle Network Node Setup -- Step 2](#turtle-network-node-setup-step-2)
+
 [5. Turtle Network Node Upgrade](#turtle-network-node-upgrade)
+
 [6. Other Useful Information](#other-useful-information)
+
 [7. Video tutorial](#video)
 
 ## Introduction
@@ -62,11 +68,9 @@ The following tutorial will show the full steps in setting-up a Linux Full Node 
 2.  Check the installation with the following command:
     -   `java -version` and the output should show the below & note that versions might differ:
 
-> "java version \"1.8.0\_74\"
->
-> Java(TM) SE Runtime Environment (build 1.8.0\_74-b02)
->
-> Java HotSpot(TM) 64-Bit Server VM (build 25.74-b02, mixed mode)"
+    > "java version \"1.8.0\_74\"
+    > Java(TM) SE Runtime Environment (build 1.8.0\_74-b02)
+    > Java HotSpot(TM) 64-Bit Server VM (build 25.74-b02, mixed mode)"
 
 ## Turtle Network Node Setup -- Step 2
 
@@ -191,7 +195,7 @@ echo "*** Turtle Network Firewall Complete ***"
 4. Install the downloaded .deb file: `dpkg -i TN_1.1.10_all.deb` (replace \*.deb with the latest .deb version)
 
 <details>
-  <summary>**If you need to resync the entire blockchain because this is mandatory (skip this step otherwise):**</summary>
+  <summary>If you need to resync the entire blockchain because this is mandatory:</summary>
   <p>Remove waves data folder: `rm -rdf /var/lib/TN/data`</p>
 </details>
 
