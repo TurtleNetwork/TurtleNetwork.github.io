@@ -9,3 +9,5 @@ collections:
     output: true
   developers:
     output: true
+  nodeowners:
+    output: true
