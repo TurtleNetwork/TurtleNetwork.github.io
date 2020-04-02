@@ -14,5 +14,10 @@ docs:
         url: /users/tntippingbot.html
       - title: TurtleNodeBot
         url: /users/turtlenodebot.html
+  - title: For Node owners
+    url: /nodeowners.html
+    subnav: 
+      - title: How to setup a new node
+        url: /nodeowners/how-to-setup-a-new-node.html
   - title: For Dev's
     url: /devs.html
