@@ -30,48 +30,37 @@ The following tutorial will show the full steps in setting-up a Linux Full Node 
 
   Details                                   | Configuration
   ----------------------------------------- | ----------------------
-  **Operating System;**                     | Ubuntu 16.04 or 18.04 
+  **Operating System:**                     | Ubuntu 16.04 or 18.04 
   **Hosting type**                          | VPS 
   \- CPU                                    | 1 CPU vCores
   \- Memory                                 | 3 GB Memory 
   \- Storage                                | 50GB (SSD preferred)
-  **Configuration;**                        | Static IP Required                              
-  **Access;**                               | Root access required 
+  **Configuration:**                        | Static IP Required                              
+  **Access:**                               | Root access required 
   **TurtleNetwork (TN) required for a node**| 1 000 TN 
 
-2. Fully patch the Operating System (OS): Login as 'root' and execute the following commands;
-
+2. Fully patch the Operating System (OS): Login as 'root' and execute the following commands:
     - `sudo apt-get update` \# Fetches the list of available updates
-
     - `sudo apt-get upgrade` \# Strictly upgrades the current packages
-
     - Reboot
 
-3. Create a local App user with sudo rights (more secure than using root)
-
+3. Create a local App user with sudo rights (more secure than using root):
     -   Issue the following command: `adduser *username*` (replace username with the required username) & it will prompt to set a password.
-
     -   Add the new username into the sudo group with the following command:
-
         `usermod -aG sudo username` (replace username with the required username)
-
     -   logout as root.
 
 ## Turtle Network Node Setup -- Step 1
 
 **Note:** All terminal sessions and commands from this point, will be done with the new 'username' created in 2.3.
 
-1.   Install the JRE 1.8 (64-bit version) with the following commands;
-
+1.   Install the JRE 1.8 (64-bit version) with the following commands:
     -   `sudo apt-get install openjdk-8-jre`
-
     -   `sudo apt-get install openjdk-8-jdk`
-
     -   **Note.** Oracle JRE 8 with 64-bit version is required
 
-2.  Check the installation with the following command;
-
-    -   `java -version` and the output should show the below & note that versions might differ;
+2.  Check the installation with the following command:
+    -   `java -version` and the output should show the below & note that versions might differ:
 
 > "java version \"1.8.0\_74\"
 >
@@ -83,95 +72,56 @@ The following tutorial will show the full steps in setting-up a Linux Full Node 
 
 **Note:** All terminal sessions and commands from this point, will be done with the new 'username' created in 2.3.
 
-**Link: Github:**
+**Github:**
 <https://github.com/BlackTurtle123/TurtleNetwork/releases>
 
-1.  Download the current .deb package (check the latest release in the above link) `wget https://github.com/BlackTurtle123/TurtleNetwork/releases/download/1.1.10/TN_1.1.10_all.deb` (replace \*.deb with the latest .deb version)
+1.  Download the current .deb package (check the latest release in the above link): `wget https://github.com/BlackTurtle123/TurtleNetwork/releases/download/1.1.10/TN_1.1.10_all.deb` (replace \*.deb with the latest .deb version)
 
 2.  Install the downloaded .deb file: `dpkg -i TN_1.1.10_all.deb` (replace \*.deb with the latest .deb version)
 
 3.  Create a wallet on the Turtle Network:
 
-    -   https://client.turtlenetwork.eu then create 'New Account'
-
-    -   **Important**: Save your SEED & password securely and never
-        loose.
-
+    -   <https://client.turtlenetwork.eu> then create 'New Account'
+    -   **Important**: Save your SEED & password securely and never loose.
     -   Login to your wallet and record the following:
-
-        -   Wallet Address:
-
-        -   Wallet Password:
-
+        -   Wallet Address
+        -   Wallet Password
         -   In Wallet, navigate to the 'Backup' item in the top-right section, click, then record your 'ENCODED SEED' which will be used later.
-
         -   Logout of wallet
 
-4.  Edit the TN.conf file in /usr/share/TN/:
-
-    -   `vi /usr/share/TN/TN.conf` (or `nano /usr/share/TN/TN.conf`)
-
-    -   Change the following defaults;
-
-        -   \# P2P Network settings section;
-
-            -   remove the '\#' then change: node-name = \"My MAINNET
-                node\" \--\> change to your custom node name
-
-            -   remove the '\#' then change: declared-address =
-                \"1.2.3.4:6868\" \--\> change to 'yourstaticip:6860
-
-        -   \# Wallet settings section;
-
-            -   change: password = \"ridetheTN!\" to your wallet
-                password set in section 4.
-
-            -   remove the '\#' then change seed = \"\" to your ENCODED
-                SEED noted in section 4.
-
-        -   \# Node\'s REST API settings section;
-
-            -   enable = no \--\> change to 'yes'
-
-            -   bind-address = \"127.0.0.1\" \--\> change to 0.0.0.0
-
-5.  Make sure the TN node starts automically as the server boots: `systemctl enable TN.service`
-
-6.  Start the TN node: `serice TN start`
-
-7.  Watch the TN node log live (press ctrl+c to cancel): `journalctl -u waves.service -f` & let it download the blockchain.
-
-8.  Browse to https://explorer.turtlenetwork.eu/peers & confirm your node is listed.
-
-9.  Open http://yourserverip:6861 and can access Swagger to do the following:
-
+4.  Open <https://privatenode.blackturtle.eu> and access Swagger to do the following:
     -   Encrypt your API key, do the following:
-
         -   Click on 'Utils' then \"/utils/hash/secure\"
+        -   Insert your own 'custom api key' in the 'Value' section then click 'Try it Out'  
+        -   Record your 'custom api key' and the 'hash' value which was generated by the previous  command
 
-        -   Insert your own 'custom api key' in the 'Value' section then
-            click 'Try it Out'  
+5.  Edit the TN.conf file in /usr/share/TN/:
+    -   `vi /usr/share/TN/TN.conf` (or `nano /usr/share/TN/TN.conf`)
+    -   Change the following defaults:
+        -   \# Directly after 'TN \{':
+            - add "blockchain.type = MAINNET" (or "blockchain.type = TESTNET" if you want to run a TESTNET node)
+        -   \# P2P Network settings section:
+            -   remove the '\#' then change: node-name = \"My MAINNET node\" \--\> change to your custom node name
+            -   remove the '\#' then change: declared-address = \"1.2.3.4:6868\" \--\> change to 'yourstaticip:6860
+        -   \# Wallet settings section:
+            -   change: password = \"ridetheTN!\" to your wallet password set in section 4.
+            -   remove the '\#' then change seed = \"\" to your ENCODED SEED noted in section 4.
+        -   \# Node\'s REST API settings section:
+            -   enable = no \--\> change to 'yes'
+            -   bind-address = \"127.0.0.1\" \--\> change to 0.0.0.0
+            -   api-key-hash = \"H6nsiifwYKYEx6YzYD7woP1XCn72RVvx6tC1zjjLXqsu\" \--\> replace with your own hash key noted in previous section.
 
-        -   Record your 'custom api key' and the 'hash' value which was generated by the previous
-            command
+6.  Make sure the TN node starts automically as the server boots: `systemctl enable TN.service`
 
+7.  Start the TN node: `serice TN start`
 
-10. Edit the TN.conf file in /usr/share/TN/:
+8.  Watch the TN node log live (press ctrl+c to cancel): `journalctl -u waves.service -f` & let it download the blockchain.
 
-    -   \# Node\'s REST API settings section:
+9.  Browse to <https://explorer.turtlenetwork.eu/peers> & confirm your node is listed.
 
-        -   api-key-hash =
-            \"H6nsiifwYKYEx6YzYD7woP1XCn72RVvx6tC1zjjLXqsu\" \--\>
-            replace with your own hash key noted in previous section.
-
-        -   Restart your node
-
-        -   **Note:** Access from your own server in console: `curl -i http://localhost:6861`
-
-11. Implement a Firewall using iptables (extra security):
-
+10. Implement a Firewall using iptables (extra security):
     -   Insert the below data into an executable file called TN_firewall for ease-of-use, basic
-        configuration below;
+        configuration below:
     -   Create file: `sudo touch TN_firewall`
     -   Execute using: `sudo ./TN_firewall`
 
@@ -192,7 +142,7 @@ IPTABLES=/sbin/iptables
 #
 echo "Checking for IPTABLES"
 
-if ! [ -x $IPTABLES ] ; then
+if ! [ -x $IPTABLES ] : then
         echo
         echo "ERROR IN CONFIGURATION: IPTABLES doesn't exist or isn't executable!"
         exit 1
@@ -230,11 +180,11 @@ echo "*** Turtle Network Firewall Complete ***"
 
 **Note:** All terminal sessions and commands from this point, will be done with the new 'username' created in 2.3.
 
-1. Backup your current TN.conf: `cp /usr/share/TN/TN.conf /usr/share/TN/TN.conf.backup` 
+1. Backup your current TN.conf: `cp /usr/share/TN/conf/TN.conf /usr/share/TN/conf/TN.conf.backup` 
 
 2. Stop the TN node: `service TN stop`
 
-3. Get the updated files (Latest releases: https://github.com/BlackTurtle123/TurtleNetwork/releases)
+3. Get the updated files (Latest releases: <https://github.com/BlackTurtle123/TurtleNetwork/releases>)
 
     -   `wget https://github.com/BlackTurtle123/TurtleNetwork/releases/download/1.1.10/TN_1.1.10_all.deb` (replace \*.deb with the latest .deb version)
 
@@ -249,7 +199,7 @@ echo "*** Turtle Network Firewall Complete ***"
 
 # Other Useful Information
 - Review the node log: `journalctl -u TN.service -f`
-- Turtle Node Reporting: http://statistics.turtlenetwork.eu/nodes
+- Turtle Node Reporting: <http://statistics.turtlenetwork.eu/nodes>
 
 # Video
 [Tutorial on node setup](https://www.youtube.com/watch?v=G8ICWvelEys&feature=youtu.be&a=)
