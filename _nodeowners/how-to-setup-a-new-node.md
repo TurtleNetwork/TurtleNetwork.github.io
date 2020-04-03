@@ -117,9 +117,9 @@ The following tutorial will show the full steps in setting-up a Linux Full Node 
 
 6.  Make sure the TN node starts automically as the server boots: `systemctl enable TN.service`
 
-7.  Start the TN node: `serice TN start`
+7.  Start the TN node: `service TN start`
 
-8.  Watch the TN node log live (press ctrl+c to cancel): `journalctl -u waves.service -f` & let it download the blockchain.
+8.  Watch the TN node log live (press ctrl+c to cancel): `journalctl -u TN.service -f` & let it download the blockchain.
 
 9.  Browse to <https://explorer.turtlenetwork.eu/peers> & confirm your node is listed.
 
@@ -196,10 +196,10 @@ echo "*** Turtle Network Firewall Complete ***"
 
 <details>
   <summary>If you need to resync the entire blockchain because this is mandatory:</summary>
-  <p>Remove waves data folder: `rm -rdf /var/lib/TN/data`</p>
+  <p>Remove TN data folder: `rm -rdf /var/lib/TN/data`</p>
 </details>
 
-5. Start the TN node: `serice TN start`
+5. Start the TN node: `service TN start`
 
 # Other Useful Information
 - Review the node log: `journalctl -u TN.service -f`
