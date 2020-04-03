@@ -3,7 +3,7 @@ layout: default
 title: "TurtleNodeBot"
 ---
 ## TurtleNodeBot
-**Description**: TurtleNodeBot notification service for the Turtle Network & Waves Platform, on Telegram.
+**Description**: TurtleNodeBot notification service for the Turtle Network & Waves Platform, on Telegram.<br>
 **Summary**: [@TurtleNodeBot](https://t.me/TurtleNodeBot) on the Telegram mobile/web application.
 
 ### Standard Functions
@@ -40,6 +40,23 @@ title: "TurtleNodeBot"
 >
 > If you don’t have 10k $TN (TurtleNetwork) the bot will give an error in the end.
 
+### List of Bot commands
+
+[@TurtleNodeBot](https://t.me/TurtleNodeBot) Type the ‘/help’ to show the below commands;
+
+* /show – Show all added addresses
+* /add – Add an address/alias to the wallet notification list
+* /del – Delete an address/alias from the wallet notification list
+* /tn – Get information about $TN
+* /assets – Show all assets listed in the bot
+* /balance – Calculate the value from an address/alias
+* /notify – Create a price notification for the Waves DEX
+* /tndex – Create a price notification for the TN DEX
+* /tdx – Create a price notification for Tidex
+* /bit – Create a price notification for Bittrex
+* /bin – Create a price notification for Binance
+* /claim – Claim from built in faucet
+* /chatid – Get chatid
 
 ### New Functions
 
@@ -60,21 +77,3 @@ title: "TurtleNodeBot"
 *Aug 2019*: Bot updated to support TurtleNetwork $TN coin
 
 *Feb 2020*: Stabilize and bug fix fully. “we just went through a major refactoring on waves and TN side”
-
-### List of Bot commands
-
-[@TurtleNodeBot](https://t.me/TurtleNodeBot) Type the ‘/help’ to show the below commands;
-
-* /show – Show all added addresses
-* /add – Add an address/alias to the wallet notification list
-* /del – Delete an address/alias from the wallet notification list
-* /tn – Get information about $TN
-* /assets – Show all assets listed in the bot
-* /balance – Calculate the value from an address/alias
-* /notify – Create a price notification for the Waves DEX
-* /tndex – Create a price notification for the TN DEX
-* /tdx – Create a price notification for Tidex
-* /bit – Create a price notification for Bittrex
-* /bin – Create a price notification for Binance
-* /claim – Claim from built in faucet
-* /chatid – Get chatid
