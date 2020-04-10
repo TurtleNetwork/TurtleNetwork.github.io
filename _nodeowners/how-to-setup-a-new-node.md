@@ -61,6 +61,7 @@ The following tutorial will show the full steps in setting-up a Linux Full Node 
 **Note:** All terminal sessions and commands from this point, will be done with the new 'username' created in 2.3.
 
 1.   Install the JRE 1.8 (64-bit version) with the following commands:
+
     -   `sudo apt-get install openjdk-8-jre`
     -   `sudo apt-get install openjdk-8-jdk`
     -   **Note.** Oracle JRE 8 with 64-bit version is required
