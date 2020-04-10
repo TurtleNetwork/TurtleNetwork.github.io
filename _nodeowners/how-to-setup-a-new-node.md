@@ -32,7 +32,7 @@ The following tutorial will show the full steps in setting-up a Linux Full Node 
 
 ## Hosting
 
-1. A Virtual Private Server (VPS) server is required with the following minimum specifications:
+- A Virtual Private Server (VPS) server is required with the following minimum specifications:
 
   Details                                   | Configuration
   ----------------------------------------- | ----------------------
@@ -45,12 +45,12 @@ The following tutorial will show the full steps in setting-up a Linux Full Node 
   **Access:**                               | Root access required 
   **TurtleNetwork (TN) required for a node**| 1 000 TN 
 
-2. Fully patch the Operating System (OS): Login as 'root' and execute the following commands:
+- Fully patch the Operating System (OS): Login as 'root' and execute the following commands:
     - `sudo apt-get update` \# Fetches the list of available updates
     - `sudo apt-get upgrade` \# Strictly upgrades the current packages
     - Reboot
 
-3. Create a local App user with sudo rights (more secure than using root):
+- Create a local App user with sudo rights (more secure than using root):
     -   Issue the following command: `adduser *username*` (replace username with the required username) & it will prompt to set a password.
     -   Add the new username into the sudo group with the following command:
         `usermod -aG sudo username` (replace username with the required username)
@@ -61,8 +61,10 @@ The following tutorial will show the full steps in setting-up a Linux Full Node 
 **Note:** All terminal sessions and commands from this point, will be done with the new 'username' created in 2.3.
 
 1.   Install the JRE 1.8 (64-bit version) with the following commands:
-`sudo apt-get install openjdk-8-jre`
-`sudo apt-get install openjdk-8-jdk`
+```
+sudo apt-get install openjdk-8-jre
+sudo apt-get install openjdk-8-jdk
+```
 **Note.** Oracle JRE 8 with 64-bit version is required
 
 2.  Check the installation with the following command:
