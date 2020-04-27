@@ -68,12 +68,16 @@ Total: 0.05TN p/tip
 * fees to network to process tip: 0.02TN
 
 ### New Functions
-**March 2020**: 
-* Added Discord platform support.<br>
+
+**March 2020**:
+* Added Discord platform support.
+
 **Feb 2020**: 
-* New 'tnsetfee' and 'tngetfee' commands added.<br>
+* New 'tnsetfee' and 'tngetfee' commands added.
+
 **Jan 2020**: 
-* Bot moved to new infrastructure and Push Messages created for ‘Tip Tuesday’.<br>
+* Bot moved to new infrastructure and Push Messages created for ‘Tip Tuesday’.
+
 **Nov 2018**: 
 * ‘tntrade’ command added for instant market trades.<br>
 
