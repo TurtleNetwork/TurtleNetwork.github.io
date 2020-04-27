@@ -45,7 +45,8 @@ title: "TurtleNodeBot"
 [@TurtleNodeBot](https://t.me/TurtleNodeBot) Type the ‘/help’ to show the below commands;
 
 * /show – Show all added addresses
-* /add – Add an address/alias to the wallet notification list (3 Network address formates supported: '3J*' TN, '3P*' WAVES, '3N*' WEST)
+* /add – Add an address/alias to the wallet notification list <br>
+- (3 Network address formats supported: '3J*' TN, '3P*' WAVES, '3N*' WEST)
 * /del – Delete an address/alias from the wallet notification list
 * /tn – Get information about $TN
 * /assets – Show all assets listed in the bot
