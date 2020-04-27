@@ -69,9 +69,9 @@ Total: 0.05TN p/tip
 
 ### New Functions
 **March 2020**: 
-* Added Discord platform support.
+* Added Discord platform support.<br>
 **Feb 2020**: 
-* New 'tnsetfee' and 'tngetfee' commands added.
+* New 'tnsetfee' and 'tngetfee' commands added.<br>
 **Jan 2020**: 
 * Bot moved to new infrastructure and Push Messages created for ‘Tip Tuesday’.<br>
 **Nov 2018**: 
