@@ -56,18 +56,18 @@ title: "TurtleNodeBot"
 
 ### New Functions
 
-*April 2020*:
+**April 2020**:
 * Added support for West Network.
 * Added Free Usage for up to 5 addresses.
 * [Removed] All price notifications & faucet.
 
-*Feb 2020*: 
-*Stabilize and bug fix fully. “we just went through a major refactoring on waves and TN side”
+**Feb 2020**:
+* Stabilize and bug fix fully. “we just went through a major refactoring on waves and TN side”.
 
-*Aug 2019*: 
-*Bot updated to support TurtleNetwork $TN coin
+**Aug 2019**:
+* Bot updated to support TurtleNetwork $TN coin.
 
-*June 2018*:
+**June 2018**:
 * Spam filter applied using WavesDesk filter api, 3 markets added to VIP.
 * TurtleNodeBot accepted TurtleNetwork premium users.
 * Registration for Waves premium members goes smoother now.
@@ -76,7 +76,7 @@ title: "TurtleNodeBot"
 * Added – show prices in Waves and BTC for TN using /tn command.
 * Added – show indicators like TN premium and regular users when using /tn command.
 
-*May 2018*:
+**May 2018**:
 * Track Addresses on the Turtle Network.
 * TN faucet added for Turtle Network, Show command now shows Turtle Network addresses. New algorithm implemented for TurtleNodeBot, it scans each block for transactions, this making it independent from waves datafeed.
 * The faucet will improve tx in the network. Every premium holder can use this faucet, if they don’t have a tn wallet , the tx wll happen to itself, if they do have one, the tx will be send to the added TN wallet.
