@@ -26,7 +26,7 @@ title: "TNTippingBot"
 
 * Telegram: Group admin inserts @TNTippingBot into the group.
 * Telegram: Group admin gives the bot admin rights to delete messages only, then the bot will clean messages posted.
-* Discord: Group admin inserts TNTippingBot#4606 into the group.
+* Discord: Group admin inserts TNTippingBot#4606 into the group, can insert using the following link: https://discordapp.com/api/oauth2/authorize?client_id=683790734700314630&permissions=157696&scope=bot
 
 ### Available Commands
 
