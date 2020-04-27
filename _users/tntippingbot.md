@@ -4,14 +4,15 @@ title: "TNTippingBot"
 ---
 ## TNTippingBot
 
-**Description**: TNTippingBot tipping service for the Turtle Network Platform, on Telegram.<br>
-**Summary**: @TNTippingBot on the Telegram mobile/web application.<br>
+**Description**: TNTippingBot tipping service for the Turtle Network Platform, on Telegram & Discord.<br>
+**Summary**: @TNTippingBot on the Telegram & Discord mobile/web application.<br>
 **Data Sheet**: @TNTippingBot Data Sheet.<br>
 **Credits**: *@Hawky & @Black_Turtle in Telegram.*
 
 ### Standard Functions
 
 * Tip a user with any Turtle Network asset within a Telegram group.
+* Tip a user with any Turtle Network asset within a Discord group.
 * Telegram username required (create in Telegram Settings section)
 * Turtle Network wallet and address automatically created
 
@@ -23,8 +24,9 @@ title: "TNTippingBot"
 
 ### Setup
 
-* Telegram group admin inserts @TNTippingBot into the group
-* Telegram group admin gives the bot admin rights to delete messages only, then the bot will clean messages posted
+* Telegram: Group admin inserts @TNTippingBot into the group.
+* Telegram: Group admin gives the bot admin rights to delete messages only, then the bot will clean messages posted.
+* Discord: Group admin inserts TNTippingBot#4606 into the group, can insert using the following link: https://discordapp.com/api/oauth2/authorize?client_id=683790734700314630&permissions=157696&scope=bot
 
 ### Available Commands
 
@@ -57,7 +59,6 @@ title: "TNTippingBot"
 * /tnimportprivatekey@TNTippingBot – import a private key for your tipping wallet in the format <*private key*> PLEASE SAVE YOUR FORMER PRIVATE KEY IN ORDER FOR BEING ABLE TO RESTORE IT
 
 **Note**: Please have in mind to not store large amounts of funds due to potential security flaws!
-
 **Note**: Keys are stored somewhere. Remember this is only for tipping! This is not a full wallet.
 
 ### Fees
@@ -67,9 +68,18 @@ Total: 0.05TN p/tip
 * fees to network to process tip: 0.02TN
 
 ### New Functions
-* Nov 2018: ‘tntrade’ command added for instant market trades.<br>
-* Jan 2020: Bot moved to new infrastructure and Push Messages created for ‘Tip Tuesday’.<br>
-* Feb 2020: New 'tnsetfee' and 'tngetfee' commands added.
+
+**March 2020**:
+* Added Discord platform support.
+
+**Feb 2020**: 
+* New 'tnsetfee' and 'tngetfee' commands added.
+
+**Jan 2020**: 
+* Bot moved to new infrastructure and Push Messages created for ‘Tip Tuesday’.
+
+**Nov 2018**: 
+* ‘tntrade’ command added for instant market trades.<br>
 
 ### Hidden functions
 * Nov 2018: /tntiptop50@TNTippingBot – tipping the top 50 in the format <*amount/user*> <*token*>
