@@ -25,7 +25,8 @@ title: "TurtleNodeBot"
 2. Open a Telegram chat with @TurtleNodeBot
 3. Type the ‘/notify help’ command to get info about registering (see below)
 
-> To get registered please use the command ‘/chatid’. This will tell your id.<br>
+> To get registered please use the command ‘/chatid’. This will show your id.<br>
+
 > **Note:** WEST Network, premium can be enabled by either TN or Waves registration below; 
 >
 > **Waves Platform Registration (Incl WEST Network)**: Make a transaction with 1 $TN (Waves) towards 3PQjMPKiRBim5tBGigzJmWko6tfRRtpi63W with only ID as description OR
