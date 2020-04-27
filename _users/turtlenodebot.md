@@ -18,7 +18,7 @@ title: "TurtleNodeBot"
 * Unlimited Accounts
 * Incoming/Outgoing tx notifications
 * Cancel lease notifications
-* All functions noted below including the Standard functions.
+* Includes all the Standard functions.
 
 ### Premium Listing Process
 
