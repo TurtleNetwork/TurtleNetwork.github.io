@@ -15,8 +15,6 @@ title: "TurtleNodeBot"
 
 ### Premium Functions
 
-* Setting price notifications for TN DEX, Waves DEX, West DEX, Bittrex, Tidex & Binance exchanges.
-* Claim tokens from built-in faucet
 * Incoming/Outgoing tx notifications
 * Cancel lease notifications
 * All functions noted below including the Standard functions.
@@ -27,8 +25,8 @@ title: "TurtleNodeBot"
 2. Open a Telegram chat with @TurtleNodeBot
 3. Type the ‘/notify help’ command to get info about registering (see below)
 
-> To get registered please use the command ‘/chatid’. This will tell your id.
-> Note: WEST Network, premum can beenabled by either TN or Waves registration. 
+> To get registered please use the command ‘/chatid’. This will tell your id.<br>
+> **Note:** WEST Network, premium can be enabled by either TN or Waves registration below; 
 >
 > **Waves Platform Registration (Incl WEST Network)**: Make a transaction with 1 $TN (Waves) towards 3PQjMPKiRBim5tBGigzJmWko6tfRRtpi63W with only ID as description OR
 >
@@ -52,12 +50,6 @@ title: "TurtleNodeBot"
 * /tn – Get information about $TN
 * /assets – Show all assets listed in the bot
 * /balance – Calculate the value from an address/alias
-* /notify – Create a price notification for the Waves DEX
-* /tndex – Create a price notification for the TN DEX
-* /tdx – Create a price notification for Tidex
-* /bit – Create a price notification for Bittrex
-* /bin – Create a price notification for Binance
-* /claim – Claim from built in faucet
 * /chatid – Get chatid
 
 ### New Functions
@@ -65,6 +57,7 @@ title: "TurtleNodeBot"
 *April 2020*:
 * Added support for West Network.
 * Added Free Usage for up to 5 addresses.
+* [Removed] All price notifications & faucet.
 
 *Feb 2020*: Stabilize and bug fix fully. “we just went through a major refactoring on waves and TN side”
 
