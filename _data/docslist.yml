@@ -17,8 +17,9 @@ docs:
   - title: For Node owners
     url: /nodeowners.html
     subnav: 
-      - title: How to setup a new node
+      - title: Setup a new node
         url: /nodeowners/how-to-setup-a-new-node.html
+      - title: Setup a new node on Pecunia
         url: /nodeowners/how-to-setup-a-new-node-pecunia.html
   - title: For Dev's
     url: /devs.html
