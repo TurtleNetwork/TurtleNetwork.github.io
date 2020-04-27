@@ -60,9 +60,11 @@ title: "TurtleNodeBot"
 * Added Free Usage for up to 5 addresses.
 * [Removed] All price notifications & faucet.
 
-*Feb 2020*: Stabilize and bug fix fully. “we just went through a major refactoring on waves and TN side”
+*Feb 2020*: 
+*Stabilize and bug fix fully. “we just went through a major refactoring on waves and TN side”
 
-*Aug 2019*: Bot updated to support TurtleNetwork $TN coin
+*Aug 2019*: 
+*Bot updated to support TurtleNetwork $TN coin
 
 *June 2018*:
 * Spam filter applied using WavesDesk filter api, 3 markets added to VIP.
