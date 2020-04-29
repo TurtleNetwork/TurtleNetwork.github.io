@@ -6,7 +6,7 @@ title: "How to setup a node on Pecunia"
 
 **Security warning**
 Although there is no reason to distrust the good folks at Pecunia, you need to be aware that you are storing your seed with a third party. 
-To minimize any risk make sure that the node wallet does not contain any funds of it's own and that everything is leased to the address.
+To minimize any risk make sure that the node wallet does not contain any funds of it's own and that everything is leased to the node.
 
 ---
 
