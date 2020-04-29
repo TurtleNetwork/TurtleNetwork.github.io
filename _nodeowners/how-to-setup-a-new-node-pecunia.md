@@ -4,6 +4,12 @@ title: "How to setup a node on Pecunia"
 ---
 # How to setup a new TN full node on the Pecunia platform
 
+**Security warning**
+Although there is no reason to distrust the good folks at Pecunia, you need to be aware that you are storing your seed with a third party. 
+To minimize any risk make sure that the node wallet does not contain any funds of it's own and that everything is leased to the address.
+
+---
+
 1.  Create a wallet on the Turtle Network:
 
     -   <https://client.turtlenetwork.eu> then create 'New Account'
