@@ -69,6 +69,9 @@ Total: 0.05TN p/tip
 
 ### New Functions
 
+**April 2020**:
+* Added /tnstats to view amount of registered tipbot addresses.
+
 **March 2020**:
 * Added Discord platform support.
 
