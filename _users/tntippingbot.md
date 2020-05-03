@@ -67,6 +67,9 @@ Total: 0.05TN p/tip
 * fees to network to process the fee payment: 0.02TN
 * fees to network to process tip: 0.02TN
 
+### Hidden functions
+* Nov 2018: /tntiptop50@TNTippingBot – tipping the top 50 in the format <*amount/user*> <*token*>
+
 ### New Functions
 
 **April 2020**:
@@ -83,6 +86,3 @@ Total: 0.05TN p/tip
 
 **Nov 2018**: 
 * ‘tntrade’ command added for instant market trades.<br>
-
-### Hidden functions
-* Nov 2018: /tntiptop50@TNTippingBot – tipping the top 50 in the format <*amount/user*> <*token*>
