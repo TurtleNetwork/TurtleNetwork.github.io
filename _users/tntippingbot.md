@@ -36,7 +36,7 @@ title: "TNTippingBot"
 * /tntip – tip user <*user*> <*amount*> <*token*>
 * /tntiptop – tip top10 <*amount/user*> <*token*>
 * /tntiptop50 – tip top50 <*amount/user*> <*token*>
-* /tnwithdraw – withdraw <*address*> <*amount*> <*token*>
+* /tnwithdraw – withdraw coins <*address*> <*amount*> <*token*>
 * /tntop – view top10 tippers
 * /tnsetfee - sets the fee to pay the tipping with format <fee> EG: ETHO
 * /tngetfee - shows currently configured fee
@@ -45,17 +45,17 @@ title: "TNTippingBot"
 * /tnimportprivatekey – import private key <*private key*>
 
 [@TNTippingBot](https://t.me/TNTippingBot) Type the ‘/tntips‘ to show the below commands;
-* /tntips@TNTippingBot - showing this help message 
-* /tnaddress@TNTippingBot - showing the address for the user who requests it 
-* /tnbal@TNTippingBot - showing the current balance of the requesting user 
-* /tntip@TNTippingBot user amount token
-* /tntiptop@TNTippingBot amount/user token
-* /tnwithdraw@TNTippingBot address amount token
-* /tntop@TNTippingBot - shows most tipping person on Telegram
+* [/tntips@TNTippingBot] # showing this help message 
+* [/tnaddress@TNTippingBot] # showing the address for the user who requests it 
+* [/tnbal@TNTippingBot] # showing the current balance of the requesting user 
+* [/tntip@TNTippingBot user amount token]
+* [/tntiptop@TNTippingBot amount/user token]
+* [/tnwithdraw@TNTippingBot address amount token]
+* [/tntop@TNTippingBot] # shows most tipping person on Telegram
 * /tnsetfee@TNTippingBot - sets the fee to pay the tipping with format <fee> EG: ETHO
-* /tngetfee@TNTippingBot - shows currently configured fee
-* /tntrade@TNTippingBot buy/sell amount token
-* /tnprivatekey@TNTippingBot - request the private key to your tipping wallet in a private chat
+* [/tngetfee@TNTippingBot] # shows currently configured fee
+* [/tntrade@TNTippingBot buy/sell amount token]
+* [/tnprivatekey@TNTippingBot] # request the private key to your tipping wallet in a private chat
 * /tnimportprivatekey@TNTippingBot – import a private key for your tipping wallet in the format <*private key*> PLEASE SAVE YOUR FORMER PRIVATE KEY IN ORDER FOR BEING ABLE TO RESTORE IT
 
 **Note**: Please have in mind to not store large amounts of funds due to potential security flaws!
