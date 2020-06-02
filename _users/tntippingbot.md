@@ -48,13 +48,13 @@ title: "TNTippingBot"
 * /tntips@TNTippingBot - showing this help message 
 * /tnaddress@TNTippingBot - showing the address for the user who requests it 
 * /tnbal@TNTippingBot - showing the current balance of the requesting user 
-* /tntip@TNTippingBot - tipping a user in the format <user> <amount> <token>
-* /tntiptop@TNTippingBot - tipping the top 10 in the format <amount/user> <token>
-* /tnwithdraw@TNTippingBot - withdraw funds in the format <address> <amount> <token>
+* /tntip@TNTippingBot <user> <amount> <token>
+* /tntiptop@TNTippingBot <amount/user> <token>
+* /tnwithdraw@TNTippingBot <address> <amount> <token>
 * /tntop@TNTippingBot - shows most tipping person on Telegram
 * /tnsetfee@TNTippingBot - sets the fee to pay the tipping with format <fee> EG: ETHO
 * /tngetfee@TNTippingBot - shows currently configured fee
-* /tntrade@TNTippingBot – trade at market prices in the format <buy or sell> <amount> <token>
+* /tntrade@TNTippingBot <buy or sell> <amount> <token>
 * /tnprivatekey@TNTippingBot - request the private key to your tipping wallet in a private chat
 * /tnimportprivatekey@TNTippingBot – import a private key for your tipping wallet in the format <*private key*> PLEASE SAVE YOUR FORMER PRIVATE KEY IN ORDER FOR BEING ABLE TO RESTORE IT
 
