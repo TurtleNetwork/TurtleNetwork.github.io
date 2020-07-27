@@ -27,7 +27,7 @@ title: "TurtleNodeBot"
 
 1. 10 000 $TN required in Wallet.
 2. Open a Telegram chat with @TurtleNodeBot
-3. Type the ‘/notify help’ command to get info about registering (see below)
+3. Type the ‘/premium’ command to get info about registering (see below)
 
 > To get registered please use the command ‘/chatid’. This will show your id.<br>
 
@@ -65,6 +65,7 @@ Support for new transaction type's, for premium account accounts.
 * incoming lease transaction.
 * lease cancel.
 * outgoing lease transaction.
+* ‘/premium’ replaces ‘/notify help’ command.
 
 **April 2020**:
 * Added support for West Network.
