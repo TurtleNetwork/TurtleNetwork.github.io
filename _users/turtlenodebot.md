@@ -19,6 +19,9 @@ title: "TurtleNodeBot"
 * Incoming/Outgoing tx notifications
 * Cancel lease notifications
 * Includes all the Standard functions.
+* Incoming lease transaction notifications.
+* Lease cancel notifications.
+* Outgoing lease transaction notifications.
 
 ### Premium Listing Process
 
@@ -55,6 +58,13 @@ title: "TurtleNodeBot"
 * /chatid – Get chatid
 
 ### New Functions
+
+
+**July 2020**:
+Support for new transaction type's, for premium account accounts.
+* incoming lease transaction.
+* lease cancel.
+* outgoing lease transaction.
 
 **April 2020**:
 * Added support for West Network.
