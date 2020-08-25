@@ -33,9 +33,9 @@ title: "TurtleNodeBot"
 
 > **Note:** WEST Network, premium can be enabled by either TN or Waves registration below; 
 >
-> **Waves Platform Registration (Incl WEST Network)**: Make a transaction with 1 $TN (Waves) towards 3PQjMPKiRBim5tBGigzJmWko6tfRRtpi63W with only ID as description OR
+> **Waves Platform Registration (Incl WEST Network)**: Make a transaction with 1 $TN (TurtleNetwork) towards 3PQjMPKiRBim5tBGigzJmWko6tfRRtpi63W with only ID inserted as a description OR
 >
-> **Turtle Network Registration (Incl WEST Network)**:  make a transaction with 1 $TN (TurtleNetwork) towards 3JgFSwnLTEWVHJMQyffHB4GJwe59hT6V4mP with only ID as as attachment.
+> **Turtle Network Registration (Incl WEST Network)**:  make a transaction with 1 $TN (TurtleNetwork) towards 3JgFSwnLTEWVHJMQyffHB4GJwe59hT6V4mP with only ID inserted as a description.
 >
 > You will be added to the system. If you are not sure feel free to contact Mr Turtle for support.
 >
