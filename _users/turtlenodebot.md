@@ -29,13 +29,13 @@ title: "TurtleNodeBot"
 2. Open a Telegram chat with @TurtleNodeBot
 3. Type the ‘/premium’ command to get info about registering (see below)
 
-> To get registered please use the command ‘/chatid’. This will show your id.<br>
+> To get registered please use the command ‘/chatid’. This will show your ID.<br>
 
 > **Note:** WEST Network, premium can be enabled by either TN or Waves registration below; 
 >
-> **Waves Platform Registration (Incl WEST Network)**: Make a transaction with 1 $TN (TurtleNetwork) towards 3PQjMPKiRBim5tBGigzJmWko6tfRRtpi63W with only ID inserted as a description OR
+> **Waves Platform Registration (Incl WEST Network)**: Make a transaction with 1 $TN (TurtleNetwork) towards 3PDRLD37a7qwABsxiKgfpJeqUt5CuSjetLL with only ID inserted as a description OR
 >
-> **Turtle Network Registration (Incl WEST Network)**:  make a transaction with 1 $TN (TurtleNetwork) towards 3JgFSwnLTEWVHJMQyffHB4GJwe59hT6V4mP with only ID inserted as a description.
+> **Turtle Network Registration (Incl WEST Network)**:  make a transaction with 1 $TN (TurtleNetwork) towards 3Je98WEfpsJ3QxtStNFYMVpnDxTKMCJ7wE3 with only ID inserted as a description.
 >
 > You will be added to the system. If you are not sure feel free to contact Mr Turtle for support.
 >
