@@ -13,7 +13,7 @@ To minimize any risk make sure that the node wallet does not contain any funds o
 
 1.  Create a wallet on the Turtle Network:
 
-    -   <https://client.turtlenetwork.eu> then create 'New Account'
+    -   <https://wallet.turtlenetwork.eu> then 'Sign in' or 'Get Started' and create a new account.
     -   **Important**: Save your SEED & password securely and never loose them.
     -   Login to your wallet and record the following:
         -   Wallet Address

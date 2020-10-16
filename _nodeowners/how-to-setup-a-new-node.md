@@ -81,13 +81,13 @@ sudo apt-get install openjdk-8-jdk
 **Github:**
 <https://github.com/BlackTurtle123/TurtleNetwork/releases>
 
-1.  Download the current .deb package (check the latest release in the above link): `wget https://github.com/BlackTurtle123/TurtleNetwork/releases/download/1.1.10/TN_1.1.10_all.deb` (replace \*.deb with the latest .deb version)
+1.  Download the current .deb package (check the latest release in the above link): `wget https://github.com/TurtleNetwork/TurtleNetwork/releases/download/1.1.11/TN_1.1.11_all.deb` (replace \*.deb with the latest .deb version)
 
-2.  Install the downloaded .deb file: `dpkg -i TN_1.1.10_all.deb` (replace \*.deb with the latest .deb version)
+2.  Install the downloaded .deb file: `dpkg -i TN_1.1.11_all.deb` (replace \*.deb with the latest .deb version)
 
 3.  Create a wallet on the Turtle Network:
 
-    -   <https://client.turtlenetwork.eu> then create 'New Account'
+    -   <https://wallet.turtlenetwork.eu> then 'Sign in' or 'Get Started' and create a new account.
     -   **Important**: Save your SEED & password securely and never loose.
     -   Login to your wallet and record the following:
         -   Wallet Address
