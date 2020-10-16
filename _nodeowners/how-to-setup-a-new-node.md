@@ -79,7 +79,7 @@ sudo apt-get install openjdk-8-jdk
 **Note:** All terminal sessions and commands from this point, will be done with the new 'username' created in 2.3.
 
 **Github:**
-<https://github.com/BlackTurtle123/TurtleNetwork/releases>
+<https://github.com/TurtleNetwork/TurtleNetwork/releases>
 
 1.  Download the current .deb package (check the latest release in the above link): `wget https://github.com/TurtleNetwork/TurtleNetwork/releases/download/1.1.11/TN_1.1.11_all.deb` (replace \*.deb with the latest .deb version)
 
