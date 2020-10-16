@@ -190,11 +190,11 @@ echo "*** Turtle Network Firewall Complete ***"
 
 2. Stop the TN node: `service TN stop`
 
-3. Get the updated files (Latest releases: <https://github.com/BlackTurtle123/TurtleNetwork/releases>)
+3. Get the updated files (Latest releases: <https://github.com/TurtleNetwork/TurtleNetwork/releases>)
 
-    -   `wget https://github.com/BlackTurtle123/TurtleNetwork/releases/download/1.1.10/TN_1.1.10_all.deb` (replace \*.deb with the latest .deb version)
+    -   `wget https://github.com/TurtleNetwork/TurtleNetwork/releases/download/1.1.10/TN_1.1.11_all.deb` (replace \*.deb with the latest .deb version)
 
-4. Install the downloaded .deb file: `dpkg -i TN_1.1.10_all.deb` (replace \*.deb with the latest .deb version)
+4. Install the downloaded .deb file: `dpkg -i TN_1.1.11_all.deb` (replace \*.deb with the latest .deb version)
 
 <details>
   <summary>If you need to resync the entire blockchain because this is mandatory:</summary>
