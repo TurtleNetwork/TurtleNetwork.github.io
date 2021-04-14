@@ -14,6 +14,10 @@ docs:
         url: /users/tntippingbot.html
       - title: TurtleNodeBot
         url: /users/turtlenodebot.html
+      - title: Turtle Network Dex
+        url: /users/TNDEX.html
+      - title: Polarity
+        url: /users/polarity.html
   - title: For Node owners
     url: /nodeowners.html
     subnav: 
