@@ -27,6 +27,6 @@ docs:
     url: /devs.html
     subnav:
       - title: Python
-        url: ''
+        url: /dev/python.md
       - title: javascript
         url: ''
