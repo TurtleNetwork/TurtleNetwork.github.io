@@ -23,5 +23,6 @@ Currently trades can be paid in 3 assets:
 
 In the trade box there is a small dropdown behind the default 0.04TN fee.
 This dropdown shows BTC/WAVES depending if a user has the assets available.
+
 ![dropdownFees](https://user-images.githubusercontent.com/16037736/115995012-cc5c0100-a5d9-11eb-87ee-44ab096c49b0.png)
 
