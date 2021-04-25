@@ -11,3 +11,5 @@ collections:
     output: true
   nodeowners:
     output: true
+  dev:
+    output: true
