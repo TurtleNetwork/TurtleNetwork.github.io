@@ -25,3 +25,8 @@ docs:
         url: /nodeowners/how-to-setup-a-new-node-pecunia.html
   - title: For Dev's
     url: /devs.html
+    subnav:
+      - title: Python
+        url: ''
+      - title: javascript
+        url: ''
