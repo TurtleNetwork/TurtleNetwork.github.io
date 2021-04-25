@@ -8,8 +8,6 @@ Also, you can create decentralized applications (dApps) on the blockchain using 
 
 Send transactions and read blockchain data from your applications on Python, Java, C#, Swift, Kotlin.
 
-See the list of supported programming languages on the [Client libraries](/en/building-apps/waves-api-and-sdk/client-libraries) page.
-
 ## Development of decentralised applications
 
 Start creating decentralised applications following the steps:
