@@ -106,8 +106,6 @@ sudo apt install openjdk-8-jdk
 5.  Edit the TN.conf file in /usr/share/TN/:
     -   `vi /usr/share/TN/conf/TN.conf` (or `nano /usr/share/TN/conf/TN.conf`)
     -   Change the following defaults:
-        -   \# Directly after 'TN \{':
-            - add "blockchain.type = MAINNET" (or "blockchain.type = TESTNET" if you want to run a TESTNET node)
         -   \# P2P Network settings section:
             -   remove the '\#' then change: node-name = \"My MAINNET node\" \--\> change to your custom node name
             -   remove the '\#' then change: declared-address = \"1.2.3.4:6868\" \--\> change to 'yourstaticip:6860
@@ -118,16 +116,14 @@ sudo apt install openjdk-8-jdk
             -   enable = no \--\> change to 'yes'
             -   bind-address = \"127.0.0.1\" \--\> change to 0.0.0.0
             -   api-key-hash = \"H6nsiifwYKYEx6YzYD7woP1XCn72RVvx6tC1zjjLXqsu\" \--\> replace with your own hash key noted in previous section.
+    
+6.  Start the TN node: `service TN start`
 
-6.  Make sure the TN node starts automically as the server boots: `systemctl enable TN.service`
+7.  Watch the TN node log live (press ctrl+c to cancel): `journalctl -u TN.service -f` & let it download the blockchain.
 
-7.  Start the TN node: `service TN start`
+8.  Browse to <https://explorer.turtlenetwork.eu/peers> & confirm your node is listed.
 
-8.  Watch the TN node log live (press ctrl+c to cancel): `journalctl -u TN.service -f` & let it download the blockchain.
-
-9.  Browse to <https://explorer.turtlenetwork.eu/peers> & confirm your node is listed.
-
-10. Implement a Firewall using iptables (extra security):
+9. Implement a Firewall using iptables (extra security):
     -   Insert the below data into an executable file called TN_firewall for ease-of-use, basic
         configuration below:
     -   Create file: `sudo touch TN_firewall`
