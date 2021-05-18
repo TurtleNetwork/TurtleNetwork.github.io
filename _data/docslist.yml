@@ -16,6 +16,8 @@ docs:
         url: /users/turtlenodebot.html
       - title: Turtle Network Dex
         url: /users/TNDEX.html
+  - title: For Users
+    subnav:
       - title: Polarity.exchange
         url: /users/polarity.html
   - title: For Node owners
