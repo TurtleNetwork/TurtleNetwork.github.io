@@ -35,5 +35,5 @@ docs:
     subnav:
       - title: Python
         url: /dev/python.html
-      - title: javascript
+      - title: 
         url: ''

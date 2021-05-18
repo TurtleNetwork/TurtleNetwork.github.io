@@ -10,7 +10,7 @@ The most convenient library for this is Pywaves or PyCWaves.
 
 ## How to configure my pywaves instance to connect with Turtle Network
 
-You can select between mainnet and testnet. For mainnet we use network char L,for testnet 'l'.
+You can select between mainnet and testnet. For mainnet we use network char L, for testnet 'l'.
 
 Below snippet shows how to properly setup pywaves for Turtle Network.
 
@@ -22,6 +22,7 @@ py.setMatcher('https://testnet.matcher.turtlenetwork.eu')
 py.DEFAULT_CURRENCY='TN'
 ```
 
-##Git repo
+## Git repo's
 
-https://github.com/pywaves/pywaves
+[PyWaves](https://github.com/pywaves/pywaves)
+[PyCWaves](https://github.com/iammortimer/PyCWaves)
