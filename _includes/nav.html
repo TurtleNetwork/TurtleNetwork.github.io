@@ -13,7 +13,7 @@
                       {% if i == 2%}</ul><ul>{% endif %}
                       <li class="{% if item.url == page.url %}active{% endif %}"><a href="{{ subentry.url }}">{{ subentry.title }}</a></li>
                       {% if i == 2%}{% i = 0 %}{% endif %}
-                      {% i =  i + 1 %}
+                      {% i = i + 1 %}
                   {% endfor %}
                   </ul>
                 {% endif %}
