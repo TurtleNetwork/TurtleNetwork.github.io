@@ -19,7 +19,6 @@ docs:
       - title: Polarity.exchange
         url: /users/polarity.html
   - title: For Node owners
-    url: /nodeowners.html
     subnav: 
       - title: Setup a new node
         url: /nodeowners/how-to-setup-a-new-node.html

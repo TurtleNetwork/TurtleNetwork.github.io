@@ -83,9 +83,9 @@ sudo apt install openjdk-8-jdk
 **Github:**
 <https://github.com/TurtleNetwork/TurtleNetwork/releases>
 
-1.  Download the current .deb package (check the latest release in the above link): `wget https://github.com/TurtleNetwork/TurtleNetwork/releases/download/v1.1.11/TN_1.1.11_all.deb` (replace `/v1.1.11/` with the latest version, replace `TN_1.1.11_all.deb` with the latest .deb version).
+1.  Download the current .deb package (check the latest release in the above link): `wget https://github.com/TurtleNetwork/TurtleNetwork/releases/download/v1.2.6/TN_1.2.6_all.deb` (replace `/v1.2.6/` with the latest version, replace `TN_1.2.6_all.deb` with the latest .deb version).
 
-2.  Install the downloaded .deb file: `dpkg -i TN_1.1.11_all.deb` (replace `TN_1.1.11_all.deb` with the latest .deb version).
+2.  Install the downloaded .deb file: `dpkg -i TN_1.2.6_all.deb` (replace `TN_1.2.6_all.deb` with the latest .deb version).
 
 3.  Create a wallet on the Turtle Network:
 
@@ -190,9 +190,9 @@ echo "*** Turtle Network Firewall Complete ***"
 
 3. Get the updated files (Latest releases: <https://github.com/TurtleNetwork/TurtleNetwork/releases>)
 
-    -   `wget https://github.com/TurtleNetwork/TurtleNetwork/releases/download/1.1.10/TN_1.1.11_all.deb` (replace \*.deb with the latest .deb version)
+    -   `wget https://github.com/TurtleNetwork/TurtleNetwork/releases/download/v1.2.6/TN_1.2.6_all.deb` (replace \*.deb with the latest .deb version)
 
-4. Install the downloaded .deb file: `dpkg -i TN_1.1.11_all.deb` (replace \*.deb with the latest .deb version)
+4. Install the downloaded .deb file: `dpkg -i TN_1.2.6_all.deb` (replace \*.deb with the latest .deb version)
 
 <details>
   <summary>If you need to resync the entire blockchain because this is mandatory:</summary>

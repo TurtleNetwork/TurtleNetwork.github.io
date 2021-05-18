@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Polarity"
+title: Polarity.exchange
+categorie: beginner
 ---
 ## Where to find my address?
 
