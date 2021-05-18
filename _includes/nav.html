@@ -8,8 +8,12 @@
               <li class="{% if item.url == page.url %}active{% endif %}"><a href="{{ entry.url }}">{{ entry.title }}</a>
                 {% if entry.subsubfolderitems[0] %}
                   <ul>
+                  {% i = 0 %}
                   {% for subentry in entry.subsubfolderitems %}
+                      {% if i == 2%}</ul><ul>{% endif %}
                       <li class="{% if item.url == page.url %}active{% endif %}"><a href="{{ subentry.url }}">{{ subentry.title }}</a></li>
+                      {% if i == 2%}{% i = 0 %}{% endif %}
+                      {% i += 1%}
                   {% endfor %}
                   </ul>
                 {% endif %}
