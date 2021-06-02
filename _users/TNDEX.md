@@ -39,3 +39,10 @@ It means that the pair didn't had volume for the past 24 hours. However the mark
 
 No this is not possible. TNDex is like the name says a DEX. This means you and only you can access your account with the seed.
 This also means you need to keep the seed safely stored offline.
+
+
+### How do I get my funds in polarity.exchange or vice versa
+
+Both polarity.echange and wallet.turtlenetwork.eu are build on top from $TN, this means they use the same seed.
+This means one seed can be used for multiple wallets, but it also means to send funds to another $TN wallet, you can use the send function and use the native $TN address,
+instead withdraw through a gateway.
