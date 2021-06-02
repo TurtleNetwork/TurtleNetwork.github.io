@@ -22,6 +22,19 @@ py.setMatcher('https://testnet.matcher.turtlenetwork.eu')
 py.DEFAULT_CURRENCY='TN'
 ```
 
+Following snippet show how to use 2 networks at the same time, could be waves and TN, but also TN and TN-testnet
+
+```
+pw1 = pw.ParallelPyWaves()
+address = pw.Address(address='3PCdNCULgjM9ZMLEt61M45qxV26ro6o48Jj',pywaves=pw1)
+print(address.address)
+
+pw2 = pw.ParallelPyWaves()
+pw2.setNode("https://tnnode2.turtlenetwork.eu","TN MAINNET",'L')
+address2 = pw.Address(privateKey='privatekey',pywaves=pw2)
+print(" address: "+address2.address)
+```
+
 ## Git repo's
 
 [PyWaves](https://github.com/pywaves/pywaves)
