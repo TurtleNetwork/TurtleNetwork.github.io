@@ -35,5 +35,7 @@ docs:
     subnav:
       - title: Python
         url: /dev/python.html
-      - title: 
-        url: ''
+      - title: Javascript
+        url: /dev/js.html
+      - title: Java
+        url: /dev/wavesJ.html
