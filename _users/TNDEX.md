@@ -46,3 +46,18 @@ This also means you need to keep the seed safely stored offline.
 Both polarity.echange and wallet.turtlenetwork.eu are build on top from $TN, this means they use the same seed.
 This means one seed can be used for multiple wallets, but it also means to send funds to another $TN wallet, you can use the send function and use the native $TN address,
 instead withdraw through a gateway.
+
+### How does my asset get listed on wallet.turtlenetwork.eu
+There are 3 options how you asset can be available on the dex:
+- You create a native project on Turtle Network, as a result your asset is immediately available for any pair
+- You have already a project and will create a proxy asset on Turtle Network, this means you need to build some kind of swap service.
+- Get polarity.exchange to list your asset, it will make it available through Turtle Network
+
+#### How to build a swap service
+There are multiple examples available from such a service, called a gateway:
+
+[WAVES-ERC20](https://github.com/PyWaves/Waves-ERC20-Gateway)
+[TN-ERC20](https://github.com/iammortimer/TN-ERC20-Gateway)
+[TN-ARRR](https://github.com/iammortimer/TN-ARRR-Gateway)
+[TN-BTC](https://github.com/iammortimer/TN-BTC-Gateway)
+[TN-ETH](https://github.com/iammortimer/TN-ETH-Gateway)
