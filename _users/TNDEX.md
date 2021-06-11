@@ -56,8 +56,8 @@ There are 3 options how you asset can be available on the dex:
 #### How to build a swap service
 There are multiple examples available from such a service, called a gateway:
 
-[WAVES-ERC20](https://github.com/PyWaves/Waves-ERC20-Gateway)
-[TN-ERC20](https://github.com/iammortimer/TN-ERC20-Gateway)
-[TN-ARRR](https://github.com/iammortimer/TN-ARRR-Gateway)
-[TN-BTC](https://github.com/iammortimer/TN-BTC-Gateway)
-[TN-ETH](https://github.com/iammortimer/TN-ETH-Gateway)
+- [WAVES-ERC20](https://github.com/PyWaves/Waves-ERC20-Gateway)
+- [TN-ERC20](https://github.com/iammortimer/TN-ERC20-Gateway)
+- [TN-ARRR](https://github.com/iammortimer/TN-ARRR-Gateway)
+- [TN-BTC](https://github.com/iammortimer/TN-BTC-Gateway)
+- [TN-ETH](https://github.com/iammortimer/TN-ETH-Gateway)
