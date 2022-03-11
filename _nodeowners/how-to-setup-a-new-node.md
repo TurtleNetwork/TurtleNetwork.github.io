@@ -97,7 +97,7 @@ sudo apt install openjdk-8-jdk
         -   In Wallet, navigate to the 'Backup' item in the top-right section, click, then record your 'ENCODED SEED' which will be used later.
         -   Log out of wallet
 
-4.  Open <https://privatenode.blackturtle.eu> and access Swagger to do the following:
+4.  Open <https://cluster.tnnode.turtlenetwork.eu> and access Swagger to do the following:
     -   Encrypt your API key, do the following:
         -   Click on 'Utils' then \"/utils/hash/secure\"
         -   Insert your own 'custom api key' in the 'Value' section then click 'Try it Out'  
