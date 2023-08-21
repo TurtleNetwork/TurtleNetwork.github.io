@@ -34,16 +34,16 @@ The following tutorial will show the full steps in setting-up a Linux Full Node 
 
 - A Virtual Private Server (VPS) server is required with the following minimum specifications:
 
-  Details                                   | Configuration
-  ----------------------------------------- | ----------------------
-  **Operating System:**                     | Ubuntu 16.04 or 18.04 
-  **Hosting type**                          | VPS 
-  \- CPU                                    | 1 CPU vCores
-  \- Memory                                 | 3 GB Memory 
-  \- Storage                                | 50GB (SSD preferred)
-  **Configuration:**                        | Static IP Required                              
-  **Access:**                               | Root access required 
-  **TurtleNetwork (TN) required for a node**| 1 000 TN 
+  Details                                   | Minimum               | Recommended           |
+  ----------------------------------------- | ----------------------| --------------------- |
+  **Operating System:**                     | Ubuntu 16.04 or 18.04 | Ubuntu 20.04 or 22.04 |
+  **Hosting type**                          | VPS                   | VPS                   |
+  \- CPU                                    | 1 CPU vCores          | 2 CPU vCores (or more)|
+  \- Memory                                 | 3 GB Memory           | 4 GB Memory (or more) |
+  \- Storage                                | 50GB (SSD preferred)  | 100 GB (SSD preferred)|
+  **Configuration:**                        | Static IP Required    | Static IP Required    |
+  **Access:**                               | Root Access Required  | Root Access Required  |
+  **TurtleNetwork (TN) required for a node**| 1,000 TN              | 1,000 TN              |
 
 - Fully patch the Operating System (OS): Login as 'root' and execute the following commands:
     - `sudo apt update` \# Fetches the list of available updates
@@ -56,23 +56,31 @@ The following tutorial will show the full steps in setting-up a Linux Full Node 
         `usermod -aG sudo *username*` (replace \*username\* with the chosen username).
     -   Log out as root.
 
+- Add this new user to SSHD config 
+    -   Open /etc/ssh/sshd_config in your editor
+    -   Add this to the bottom of the file `AllowUsers *username*` (replace \*useruname\* with what you chose above)
+    -   For extra security you can also change the line `PermitRootLogin yes` to `PermitRootLogin no` 
+    -   Save the file and exit
+    -   Type `sudo systemctl restart sshd` or `service sshd restart`
+    -   Now you can log in to the server with your new user 
+
 ## Turtle Network Node Setup -- Step 1
 
 **Note:** All terminal sessions and commands from this step, will be done with the chosen 'username' from the 'Hosting section'.
 
-1.   Install the JRE 1.8 (64-bit version) with the following commands:
+1.   Install the JDK/JRE 11 (64-bit version) with the following commands:
 ```
-sudo apt install openjdk-8-jre
-sudo apt install openjdk-8-jdk
+sudo apt install openjdk-11-jre
+sudo apt install openjdk-11-jdk
 ```
-**Note:** Oracle JRE 8 with 64-bit version is required.
+**Note:** Oracle JDK/JRE 11 with 64-bit version is required.
 
 2.  Check the installation with the following command:
     -   `java -version`, the output should show information similar to what is shown below:
 
-    > "java version \"1.8.0\_74\"
-    > Java(TM) SE Runtime Environment (build 1.8.0\_74-b02)
-    > Java HotSpot(TM) 64-Bit Server VM (build 25.74-b02, mixed mode)"
+    > openjdk version "11.0.20" 2023-07-18
+    > OpenJDK Runtime Environment (build 11.0.20+8-post-Ubuntu-1ubuntu122.04)
+    > OpenJDK 64-Bit Server VM (build 11.0.20+8-post-Ubuntu-1ubuntu122.04, mixed mode, sharing)
 
 **Note:** The version might differ.
 
@@ -83,9 +91,9 @@ sudo apt install openjdk-8-jdk
 **Github:**
 <https://github.com/TurtleNetwork/TurtleNetwork/releases>
 
-1.  Download the current .deb package (check the latest release in the above link): `wget https://github.com/TurtleNetwork/TurtleNetwork/releases/download/v1.2.6/TN_1.2.6_all.deb` (replace `/v1.2.6/` with the latest version, replace `TN_1.2.6_all.deb` with the latest .deb version).
+1.  Download the current .deb package (check the latest release in the above link): `wget https://github.com/TurtleNetwork/TurtleNetwork/releases/download/v1.3.16/tn_1.3.16_all.deb` (replace `/v1.3.16/` with the latest version, replace `tn_1.3.16_all.deb` with the latest .deb version).
 
-2.  Install the downloaded .deb file: `dpkg -i TN_1.2.6_all.deb` (replace `TN_1.2.6_all.deb` with the latest .deb version).
+2.  Install the downloaded .deb file: `dpkg -i tn_1.3.16_all.deb` (replace `tn_1.3.16_all.deb` with the latest .deb version).
 
 3.  Create a wallet on the Turtle Network:
 
@@ -103,8 +111,8 @@ sudo apt install openjdk-8-jdk
         -   Insert your own 'custom api key' in the 'Value' section then click 'Try it Out'  
         -   Record your 'custom api key' and the 'hash' value which was generated by the previous  command
 
-5.  Edit the TN.conf file in /usr/share/TN/:
-    -   `vi /usr/share/TN/conf/TN.conf` (or `nano /usr/share/TN/conf/TN.conf`)
+5.  Edit the TN.conf file in /usr/share/tn/:
+    -   `vi /usr/share/tn/conf/tm.conf` (or `nano /usr/share/tm/conf/tn.conf`)
     -   Change the following defaults:
         -   \# P2P Network settings section:
             -   remove the '\#' then change: node-name = \"My MAINNET node\" \--\> change to your custom node name
@@ -115,11 +123,12 @@ sudo apt install openjdk-8-jdk
         -   \# Node\'s REST API settings section:
             -   enable = no \--\> change to 'yes'
             -   bind-address = \"127.0.0.1\" \--\> change to 0.0.0.0
+            -   port = 6859
             -   api-key-hash = \"H6nsiifwYKYEx6YzYD7woP1XCn72RVvx6tC1zjjLXqsu\" \--\> replace with your own hash key noted in previous section.
     
-6.  Start the TN node: `service TN start`
+6.  Start the TN node: `sudo service tn start` or `sudo systemctl start tn`
 
-7.  Watch the TN node log live (press ctrl+c to cancel): `journalctl -u TN.service -f` & let it download the blockchain.
+7.  Watch the TN node log live (press ctrl+c to cancel): `sudo journalctl -u tn.service -f` & let it download the blockchain.
 
 8.  Browse to <https://explorer.turtlenetwork.eu/peers> & confirm your node is listed.
 
@@ -178,31 +187,31 @@ echo "*** Turtle Network Firewall Complete ***"
 ```
 
 
-**Note:** Port 80 uses a proxy to forward to port 6861
+**Note:** Port 80 uses a proxy to forward to port 6859 (unless you have Apache already installed where then you will need to specify :6859 after the url / ip)
 
 # Turtle Network Node Upgrade
 
 **Note:** All terminal sessions and commands from this step, will be done with the chosen 'username' from the 'Hosting section'.
 
-1. Backup your current TN.conf: `cp /usr/share/TN/conf/TN.conf /usr/share/TN/conf/TN.conf.backup` 
+1. Backup your current TN.conf: `cp /usr/share/tn/conf/tn.conf /usr/share/tn/conf/tn.conf.backup` 
 
-2. Stop the TN node: `service TN stop`
+2. Stop the TN node: `sudo service tn stop` or `sudo systemctl stop tn`
 
 3. Get the updated files (Latest releases: <https://github.com/TurtleNetwork/TurtleNetwork/releases>)
 
-    -   `wget https://github.com/TurtleNetwork/TurtleNetwork/releases/download/v1.2.6/TN_1.2.6_all.deb` (replace \*.deb with the latest .deb version)
+    -   `wget https://github.com/TurtleNetwork/TurtleNetwork/releases/download/v1.3.16/tn_1.3.16_all.deb` (replace \*.deb with the latest .deb version)
 
-4. Install the downloaded .deb file: `dpkg -i TN_1.2.6_all.deb` (replace \*.deb with the latest .deb version)
+4. Install the downloaded .deb file: `dpkg -i tn_1.3.16_all.deb` (replace \*.deb with the latest .deb version)
 
 <details>
   <summary>If you need to resync the entire blockchain because this is mandatory:</summary>
-  <p>Remove TN data folder: `rm -rdf /var/lib/TN/data`</p>
+  <p>Remove TN data folder: `rm -rdf /var/lib/tn/data`</p>
 </details>
 
-5. Start the TN node: `service TN start`
+5. Start the TN node: `sudo service tn start` or `sudo systemctl start tn`
 
 # Other Useful Information
-- Review the node log: `journalctl -u TN.service -f`
+- Review the node log: `sudo journalctl -u tn.service -f`
 - Turtle Node Reporting: <http://statistics.turtlenetwork.eu/nodes>
 
 # Video
