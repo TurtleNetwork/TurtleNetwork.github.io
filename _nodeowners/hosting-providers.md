@@ -7,9 +7,9 @@ title: "Hosting Providers"
 
 **Note: These providers are known to be friendly to and work well with TN node software. However, TN does not endorse any particular one of these. You must make your own descision.**
 
-[1. Contabo](https://contabo.com/)
-[2. Hetzner](https://www.hetzner.com/)
-[3. time4vps](https://www.time4vps.com/)
+1. [Contabo](https://contabo.com/)
+2. [Hetzner](https://www.hetzner.com/)
+3. [time4vps](https://www.time4vps.com/)
 
 As long as you meet the requirements below, you can host a node at home too!
 

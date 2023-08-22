@@ -10,6 +10,6 @@ Turtle Shell is a web browser extension that provides access to your wallet. Man
 
 ## Where Do I Get It?
 
-[1. Chrome Webstore](https://chrome.google.com/webstore/detail/turtleshell/billhkeiifjfbbkmmfpcpchikbajnfje)
-[2. Mozilla Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/turtleshell/)
-[3. GitHub Repo](https://github.com/TurtleNetwork/TurtleShell)
+1. [Chrome Webstore](https://chrome.google.com/webstore/detail/turtleshell/billhkeiifjfbbkmmfpcpchikbajnfje)
+2. [Mozilla Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/turtleshell/)
+3. [GitHub Repo](https://github.com/TurtleNetwork/TurtleShell)
