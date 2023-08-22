@@ -16,12 +16,16 @@ docs:
         url: /users/turtlenodebot.html
       - title: Turtle Network Dex
         url: /users/TNDEX.html
+      - title: Transitum
+        url: /users/transitum.html
+      - title: Turtle Shell
+        url: /users/turtle-shell.html
   - title: 
     subnav:
       - title: Polarity exchange
         url: /users/polarity.html
-      - title: 
-        url: 
+      - title: FaithSwap
+        url: /users/faithswap.html
       - title: 
         url: 
   - title: For Node owners
@@ -30,6 +34,8 @@ docs:
         url: /nodeowners/how-to-setup-a-new-node.html
       - title: Setup a new node on Pecunia
         url: /nodeowners/how-to-setup-a-new-node-pecunia.html
+      - title: Hosting Providers
+        url: /nodeowners/hosting-providers.html
   - title: For Dev's
     url: /devs.html
     subnav:
