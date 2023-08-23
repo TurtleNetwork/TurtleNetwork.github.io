@@ -18,5 +18,5 @@ Usimg the connect button at the top right of the screen you can connect the Turt
 
 ### Links
 
-[1. FaithSwap Website](https://faithswap.finance)
-[2. A4A Dao Telegram](https://t.me/A4ADAO)
+1. [FaithSwap Website](https://faithswap.finance)
+2. [A4A Dao Telegram](https://t.me/A4ADAO)
