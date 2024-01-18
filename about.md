@@ -8,6 +8,6 @@ Review the articles to understand the value that blockchain offers.
 The main objects of blockchain:
 
 * [Account](/about/account.html)
-* [Transaction](/en/blockchain/transaction)
-* [Block](/en/blockchain/block)
-* [Node](/en/blockchain/node)
+* [Transaction](/en/blockchain/transaction) - _Missing_
+* [Block](/en/blockchain/block) - _Missing_
+* [Node](/en/blockchain/node) - _Missing_
